@@ -1,0 +1,73 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Какие данные обрабатывает OpenClaw Personal, для чего они используются, где хранятся и как отозвать доступ.">
+  <meta name="referrer" content="strict-origin-when-cross-origin">
+  <title>Политика конфиденциальности — OpenClaw Personal</title>
+  <link rel="canonical" href="https://lawertax-arch.github.io/privacy.html">
+  <style>
+  :root { color-scheme: light; font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif; color: #172034; background: #fff; font-size: 100%; }
+  * { box-sizing: border-box; }
+  body { margin: 0; border-top: 5px solid #2354b8; }
+  a { color: #174aa6; text-decoration-thickness: .08em; text-underline-offset: .18em; }
+  a:hover { color: #102d63; }
+  a:focus-visible { outline: 3px solid #2354b8; outline-offset: 5px; border-radius: 2px; }
+  .skip { position: absolute; top: -100px; left: 1rem; padding: .75rem; background: #fff; }
+  .skip:focus { top: 1rem; }
+  header, main, footer { width: min(100% - 2.5rem, 48rem); margin-inline: auto; }
+  header { display: flex; flex-wrap: wrap; align-items: center; gap: 1rem 2rem; padding-block: 1.5rem; border-bottom: 1px solid #dce1ea; }
+  .brand { font-size: 1rem; font-weight: 700; color: #172034; text-decoration: none; }
+  nav { display: flex; flex-wrap: wrap; gap: .75rem 1.5rem; margin-left: auto; font-size: .9375rem; }
+  nav [aria-current="page"] { color: #172034; font-weight: 600; text-decoration: none; }
+  main { padding-block: 2.5rem 3.5rem; }
+  h1 { font-size: clamp(2rem, 5vw, 2.75rem); line-height: 1.16; letter-spacing: -.035em; margin: 0 0 1.5rem; font-weight: 750; overflow-wrap: anywhere; }
+  h2 { font-size: 1.3rem; line-height: 1.35; margin: 2.25rem 0 .75rem; letter-spacing: -.015em; }
+  p { font-size: 1.0625rem; line-height: 1.75; margin: 0 0 1.15rem; overflow-wrap: anywhere; }
+  h1 + p { color: #46546a; }
+  footer { border-top: 1px solid #dce1ea; padding-block: 1.25rem 2rem; color: #46546a; font-size: .875rem; }
+  @media (max-width: 36rem) { header { display: block; } nav { margin-top: 1rem; } main { padding-top: 2rem; } }
+  @media print { body { border: 0; } header, footer, .skip { display: none; } main { width: 100%; padding: 0; } a { color: inherit; } h2 { break-after: avoid; } }
+</style>
+</head>
+<body>
+  <a class="skip" href="#content">Перейти к содержанию</a>
+  <header>
+    <a class="brand" href="index.html">OpenClaw Personal</a>
+    <nav aria-label="Основная навигация">
+      <a href="index.html">Описание</a>
+      <a href="privacy.html" aria-current="page">Конфиденциальность</a>
+    </nav>
+  </header>
+  <main id="content">
+    <article>
+      <h1>Политика конфиденциальности OpenClaw Personal</h1>
+      <p>Дата редакции: 3 сентября 2026 года.</p>
+      <h2>Назначение и владелец</h2>
+      <p>OpenClaw Personal — личный ассистент Алексея, работающий на его сервере и доступный ему через Telegram. Контакт по вопросам обработки данных: <a href="mailto:lawertax@gmail.com">lawertax@gmail.com</a>.</p>
+      <h2>Какие данные обрабатываются</h2>
+      <p>После разрешения доступа через Google приложение получает адрес электронной почты и идентификатор подключённого аккаунта, а также сведения из доступных этому аккаунту календарей. Они могут включать названия, описания, даты, время, часовые пояса, места, участников и настройки напоминаний событий — в зависимости от запроса и ответа Google Calendar.</p>
+      <p>Также обрабатываются запросы владельца в Telegram и ответы ассистента. Пароль Google приложение не получает: для доступа используются выданные Google токены авторизации. Эта интеграция не запрашивает доступ к Gmail и Google Drive.</p>
+      <h2>Для чего используются данные</h2>
+      <p>Данные используются для просмотра расписания, поиска событий и свободного времени, создания и изменения событий по запросу владельца, а также для работы и диагностики подключения. Они не используются владельцем приложения для рекламы и не продаются.</p>
+      <h2>Кому могут передаваться данные</h2>
+      <p>Google Calendar хранит календарь и обрабатывает запросы к нему. OpenClaw обрабатывает запросы и результаты на личном сервере владельца.</p>
+      <p>Содержимое запросов и релевантные сведения календаря могут передаваться OpenAI для понимания запроса и формирования ответа. Сообщения и ответы, включая содержащиеся в них сведения календаря, передаются через Telegram. Эти передачи нужны для работы ассистента; использование приложения предполагает согласие владельца на такую обработку. Для своей обработки данных внешние сервисы применяют собственные условия и политики конфиденциальности.</p>
+      <p>Календарные данные, сообщения и ключи доступа не публикуются на информационном сайте и в его GitHub-репозитории.</p>
+      <h2>Хранение и защита</h2>
+      <p>Токены авторизации и рабочие данные хранятся на сервере владельца с ограничением доступа. Запросы, ответы и результаты работы могут сохраняться в истории сессий, служебных журналах и резервных копиях. Это не режим обработки без сохранения истории.</p>
+      <p>Данные сохраняются в рамках работы личного ассистента и настроек хранения его компонентов. Единый гарантированный срок автоматического удаления не установлен. Владелец управляет удалением локальных данных и резервных копий; сроки хранения у Google, OpenAI, Telegram и хостинг-провайдера регулируются их собственными условиями.</p>
+      <h2>Отзыв доступа и удаление</h2>
+      <p>Доступ к Google можно отозвать в настройках подключений аккаунта Google. После отзыва приложение не сможет получать новые данные календаря с использованием отозванного разрешения.</p>
+      <p>Отзыв доступа не удаляет автоматически ранее сохранённую историю, сообщения и резервные копии. По вопросам удаления данных приложения следует обращаться к владельцу по адресу <a href="mailto:lawertax@gmail.com">lawertax@gmail.com</a>. Данные в сторонних сервисах управляются отдельно средствами этих сервисов.</p>
+      <h2>Информационный сайт</h2>
+      <p>На сайте не предусмотрены формы ввода данных календаря, вход в Google или собственные рекламные и аналитические счётчики. Страницы размещаются на GitHub Pages. GitHub сообщает, что фиксирует IP-адреса посетителей в целях безопасности; подробнее — в <a href="https://docs.github.com/en/pages/getting-started-with-github-pages/what-is-github-pages#data-collection">документации GitHub Pages</a>.</p>
+      <h2>Изменения</h2>
+      <p>При изменении назначения приложения, подключаемых сервисов или порядка обработки данных эта политика должна быть обновлена до начала новой обработки. Подключение дополнительных сервисов Google потребует отдельного разрешения.</p>
+      <p><a href="index.html">На главную</a></p>
+    </article>
+  </main>
+  <footer>OpenClaw Personal · <a href="mailto:lawertax@gmail.com">lawertax@gmail.com</a></footer>
+</body>
+</html>
